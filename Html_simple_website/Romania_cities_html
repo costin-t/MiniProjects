@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Romanian Cities</title>
+</head>
+<body>
+	<h2> Romanian Cities</h2>
+	<h3> This site is made only in html and presents some cities from Romania and their history:   </h3>
+	<p>Please select which city you are interested in: </p>
+	<ul>
+		<li><a href="Bucharest.html">Bucharest</a></li>
+		<li><a href="Timisoara.html">Timisoara</a></li>
+		<li><a href="Galati.html">Galati</a></li>
+		<li><a href="Brasov.html">Brasov</a></li>
+		<li><a href="Cluj_Napoca.html">Cluj Napoca</a></li>
+	</ul>
+	<hr>
+	<p>Which city did you like the most?</p>
+	<input type="Radio" name="city" value="city" name="Bucharest">Bucharesti<br>
+	<input type="Radio" name="city" value="city" name="Timisoara">Timisoara<br>
+	<input type="Radio" name="city" value="city" name="Galati">Galati<br>
+	<input type="Radio" name="city" value="city" name="Brasov">Brasov<br>
+	<input type="Radio" name="city" value="city" name="Cluj Napoca">Cluj Napoca<br>
+	<hr>
+	<p> What city do you want to go to? </p>
+	<input type="checkbox" name="go" value="go" name="Bucharest">Bucharest<br>
+	<input type="checkbox" name="go" value="go" name="Timisoara">Timisoara<br>
+	<input type="checkbox" name="go" value="go" name="Galati">Galati<br>
+	<input type="checkbox" name="go" value="go" name="Brasov">Brasov<br>
+	<input type="checkbox" name="go" value="go" name="Cluj Napoca">Cluj Napoca<br>
+	<hr> 
+	<p> By which means of transport will you come to Romania. <p>
+	<Select name="Transport">
+		<option value="Transport" value="Car">Car</option>
+		<option value="Trasport" value ="Plane"> Plane</option>
+		<option value="Trasport" value ="Train">Train</option>
+	</Select>
+	<hr>
+	<form method="GET"> 
+		<p> Which Romanian city would you like to be added to the website? </p>
+			<input type="text" value="" name="add" >
+	</form>
+	<br>
+	<input type="submit" value="Submit">
+	<input type="reset">
+
+
+</body>
+</html>
